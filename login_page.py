@@ -83,9 +83,7 @@ class login_page:
                     connection.close()
                     
                     #=========================SECOND WINDOW===============================
-                    #------------Toplevel:create a window top of another window-----------
-                    #------------focus_force:Helps to to focus on the current window------
-                    #-----Grab:Helps to grab the current window until user ungrab it------
+                   
 
                     self.root=Toplevel()
                     self.root.title("Forget Password?")
@@ -161,10 +159,7 @@ class login_page:
         obj = SignUp(root)
         root.mainloop()
 
-        #====Another method to perform same operation as previous(Linux User)====
-
-        # self.window.destroy()
-        # os.system("python3 signup_page.py")
+       
         
         #===================================================================
 
